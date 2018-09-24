@@ -1,10 +1,27 @@
 {
   "pages":[
+    "pages/movie/movie",
+    "pages/index/index",
     "pages/article/article",
-    "pages/article/article-detail/article-detail",
-    "pages/index/index"
+    "pages/article/article-detail/article-detail"
   ],
   "window": {
     "navigationBarBackgroundColor": "#000"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "position": "bottom",
+    "selectedColor": "#f88",
+    "list": [
+      {
+        "pagePath": "pages/article/article",
+        "text": "文章"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "电影"
+      }
+    ]
   }
+  
 }
