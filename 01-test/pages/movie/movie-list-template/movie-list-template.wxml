@@ -3,7 +3,7 @@
   <view class="movie-list-box">
     <view class='head'>
       <text class='hot'>{{tag}}</text>
-      <text class='more'>更多 ></text>
+      <text class='more' catchtap='tapMore' data-tag-type='{{tagType}}'>更多 ></text>
     </view>
     <view class='list'>
       <block wx:for="{{movies}}" wx:for-item="movie" wx:key="">
